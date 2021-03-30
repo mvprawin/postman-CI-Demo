@@ -1,0 +1,16 @@
+{
+  "name": "postman-ci-demo",
+  "version": "1.0.0",
+  "description": "Node project to Store collections",
+  "scripts": {
+    "api-tests": "newman run Collection1.json"
+  },
+  "keywords": [
+    "Postman",
+    "CI"
+  ],
+  "author": "Prawin MV",
+  "dependencies": {
+  "newman": "5.1.2"
+  }
+}
